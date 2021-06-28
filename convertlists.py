@@ -71,7 +71,7 @@ def _parse_headers_for_list_details(headerdict):
     elif "last update" in headerdict:
         output["Last Modified"] = headerdict["last update"]
     elif "updated" in headerdict:
-        output["Last Modified"] = headerdict["update"]
+        output["Last Modified"] = headerdict["updated"]
     elif "date" in headerdict:
         output["Last Modified"] = headerdict["date"]
 
